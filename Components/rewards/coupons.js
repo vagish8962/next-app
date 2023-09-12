@@ -4,7 +4,7 @@ import {
   getContentStatictics,
   getUserPoints,
   redeemCoupon,
-} from "@/pages/api/api-handler-helpers";
+} from "@/api-test/api-handler-helpers";
 import Modalpopup from "@/Components/rewards/modal";
 import {CouponSuccessContent,CouponFailureContent} from "@/Components/rewards/modalContent";
 import { useRouter } from "next/router";

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 // //import Link from "next/link";
 // import ecohacksimg from "@/icons/images/eco-hacks.png";
 // import hellmannsimg from "@/icons/images/hellmanns.png";
-import useApi from "@/pages/api-test/api";
+import useApi from "@/api-test/api";
 import { useRouter } from "next/router";
 import { allLeapFiltersSeq, imageUrl } from "@/constants";
 
