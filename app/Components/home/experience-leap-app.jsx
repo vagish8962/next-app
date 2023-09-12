@@ -1,11 +1,11 @@
 
 import React from "react";
 import Image from "next/image";
-// import appimg from "@/assets/images/mobile-app.png";
-// import appstore from "@/assets/images/appstore.svg";
-// import googleplay from "@/assets/images/googleplay.svg";
+// import appimg from "@/app/assets/images/mobile-app.png";
+// import appstore from "@/app/assets/images/appstore.svg";
+// import googleplay from "@/app/assets/images/googleplay.svg";
 import Link from "next/link";
-import { appstoreLink, playstoreLink } from "@/constants";
+import { appstoreLink, playstoreLink } from "@/app/constants";
 function ExperienceApp() {
   return (
     <>

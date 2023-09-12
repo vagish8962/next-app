@@ -1,4 +1,4 @@
-import useFetchData from "@/Hooks/useFetchData";
+import useFetchData from "@/app/Hooks/useFetchData";
 
 const useApi = () => {
   const [{ response, error, isLoading }, fetchData] = useFetchData();

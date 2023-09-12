@@ -1,8 +1,8 @@
 import React from "react";
-import HeroBanner from "@/Components/home/hero-banner";
-import ExperienceApp from "@/Components/home/experience-leap-app";
-import InsideApp from "@/Components/home/inside-app";
-import Ecohacks from "@/Components/home/ecohacks";
+import HeroBanner from "@/app/Components/home/hero-banner";
+import ExperienceApp from "@/app/Components/home/experience-leap-app";
+import InsideApp from "@/app/Components/home/inside-app";
+import Ecohacks from "@/app/Components/home/ecohacks";
 
 function Homepage() {
   return (

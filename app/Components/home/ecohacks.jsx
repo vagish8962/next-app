@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 // import Image from "next/image";
 // //import Link from "next/link";
-// import ecohacksimg from "@/icons/images/eco-hacks.png";
-// import hellmannsimg from "@/icons/images/hellmanns.png";
-import useApi from "@/api-test/api";
+// import ecohacksimg from "@/app/icons/images/eco-hacks.png";
+// import hellmannsimg from "@/app/icons/images/hellmanns.png";
+import useApi from "@/app/api-test/api";
 import { useRouter } from "next/router";
-import { allLeapFiltersSeq, imageUrl } from "@/constants";
+import { allLeapFiltersSeq, imageUrl } from "@/app/constants";
 
 function Ecohacks() {
   const [productsData, setProductsData] = useState([]);
